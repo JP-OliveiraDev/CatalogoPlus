@@ -1,40 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# CatálogoPlus
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-First, run the development server:
+Uma aplicação web moderna para exibição de produtos com carrinho e favoritos, desenvolvida em **Next.js** + **TailwindCSS**.  
+O objetivo é oferecer uma experiência de catálogo simples, responsiva e com UX fluida.
+
+---
+
+## Funcionalidades
+
+- 🔍 **Busca de produtos** em tempo real  
+- ❤️ **Favoritos** (adicionar/remover)  
+- 🛒 **Carrinho de compras** com cálculo automático do total  
+- 📱 **Layout responsivo**  
+- 🎨 **Design moderno** com TailwindCSS + animações  
+- 🖼️ **Exibição de imagens dos produtos** 
+- 📑 **Separação de lógica e apresentação** para facilitar manutenção  
+
+---
+
+## Tecnologias
+
+- [Next.js](https://nextjs.org/)  
+- [React](https://react.dev/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [Framer Motion](https://www.framer.com/motion/)  
+
+---
+
+## Estrutura de Pastas
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+.
+├── components/        # Componentes reutilizáveis (Header, Cart, Favorites, etc)
+├── hook/              # Hooks customizados (ex: useCatalog)
+├── pages/             # Páginas da aplicação
+├── public/            # Imagens estáticas (Logo, ícones, etc)
+├── styles/            # Estilos globais (Tailwind e customizações)
+└── README.md          # Documentação do projeto
+```
+---
+
+## Como rodar o projeto
+
+**1° Clone o repositório:**
+
+```
+git clone https://github.com/seu-usuario/catalogoplus.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2° Entre na pasta:**
+```
+cd catalogoplus
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**3° Instale as dependências:**
+```
+npm install
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**4° Rode o servidor de desenvolvimento:**
+```
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+**5° Abra em:**
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Deploy
+O projeto está disponível em produção na Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+👉 Demo Online
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Prévia
 
-## Deploy on Vercel
+### Tela inicial
+![Home](./public/screenshots/Home.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Carrinho
+![Carrinho](./public/screenshots/Carrinho.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### Favoritos
+![Favoritos](./public/screenshots/Favoritos.png)
+
+## Contribuição
+Contribuições são bem-vindas! Se você encontrar bugs, tiver sugestões ou melhorias, fique à vontade para abrir uma issue ou enviar um pull request.
