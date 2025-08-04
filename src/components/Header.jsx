@@ -9,7 +9,7 @@ export default function Header({ onSearch, cartCount, favCount = 0, onCartClick,
         {/* Logo */}
         <div className="flex items-center h-12 cursor-pointer">  
           <Image 
-            src="/Logo.png" 
+            src="/logo.png" 
             alt="CatalogoPlus Logo" 
             width={120} 
             height={120} 
