@@ -76,7 +76,7 @@ http://localhost:3000
 ## Deploy
 O projeto está disponível em produção na Vercel:
 
-👉 Demo Online
+👉 [Demo Online](https://catalogo-plus.vercel.app/)
 
 ---
 
