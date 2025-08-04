@@ -4,6 +4,7 @@ import Cart from "../components/Cart";
 import Favorites from "../components/Favorites";
 import ProductCard from "../components/ProductCard";
 import useCatalog from "../hook/useCatalog";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const {
@@ -111,6 +112,7 @@ export default function Home() {
               ))}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
